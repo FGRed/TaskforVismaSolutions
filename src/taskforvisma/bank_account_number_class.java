@@ -175,7 +175,7 @@ public class bank_account_number_class {
 															}
 															intArray[i] = Integer.parseInt(String.valueOf(s.charAt(i)));
 										}
-
+      
 										ArrayList<Integer> multipliers = new ArrayList();
 										int multiplier = 0;
 										for (int j = 0; j < intArray.length - 1; j++) {
